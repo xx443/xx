@@ -1,0 +1,29 @@
+{
+    "navigationBarBackgroundColor": "#8A2BE2",
+    "result": {
+    "location": {
+      "lng": 104.06654099999996,
+      "lat": 30.572268897395259
+    },
+    "formatted_address": "四川省成都市武侯区G4201(成都绕城高速)",
+    "business": "",
+    "addressComponent": {
+      "country": "中国",
+      "country_code": 0,
+      "province": "四川省",
+      "city": "成都市",
+      "district": "武侯区",
+      "adcode": "510107",
+      "street": "G4201(成都绕城高速)",
+      "street_number": "",
+      "direction": "",
+      "distance": ""
+    },
+    "pois": [],
+    "poiRegions": [],
+    "sematic_description": "环球中心w6区西南108米",
+    "cityCode": 75
+  },
+    "desc": "invilad-citykey",
+    "status": 1002
+}
