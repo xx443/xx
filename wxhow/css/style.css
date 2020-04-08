@@ -1,0 +1,674 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+html,body,#box,#box2,.page{
+	width: 100%;
+	height: 100%;
+}
+.page,img,h1,p,h2,h3,h4,h5,h6{
+	position: absolute;
+}
+.page1{
+	z-index: 9;
+}
+.page1>.zxc{
+	width: 100%;
+	height: 50%;
+	bottom: 0;
+	left: 0;
+}
+.page1>.qc{
+	width: 60%;
+	top: 5%;
+	left: 19%;
+}
+.page1>.xr{
+	width: 75%;
+	top: 0;
+	right: 14%;
+}
+.page1>p{
+	color: green;
+	top: 44%;
+	left: 6%;
+}
+.page1>h5{
+	color: green;
+	top: 47%;
+	left: 6%;
+}
+.page1>h1{
+	color: crimson;
+	top: 65%;
+	left: 34%;
+}
+.page1>h2{
+	color: crimson;
+	top:73%;
+	left:30%;
+}
+.page1>h3{
+	color: crimson;
+	top: 81%;
+	left: 23%;
+	border-bottom: 2px solid crimson;
+	padding-bottom:10px;
+	padding-left: 60px;
+	width: 180px;
+}
+.page1>h4{
+	color: crimson;
+	top: 88%;
+	left: 39%;
+}
+@keyframes zxc{
+	from{transform: translatex(600px) rotate(0);}
+	to{transform: translatex(0) rotate(0);}
+}
+.zxc{
+	animation: zxc 2s linear;
+}
+@keyframes qc{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+.qc{
+	animation: qc 2s linear;
+}
+@keyframes xr{
+	from{transform: translatex(-600px) rotate(0);}
+	to{transform: translatex(0) rotate(0);}
+}
+.xr{
+	animation: xr 2s linear;
+}
+@keyframes p{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.page>p{animation: p 2s linear}
+
+@keyframes h1{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+.page>h1{animation: h1 2s linear;}
+@keyframes h2{
+	from{transform: translatex(-600px) rotate(0);}
+	to{transform: translatex(0) rotate(0);}
+}
+.page>h2{animation: h2 2s linear;}
+@keyframes h3{
+	from{transform: translatex(600px) rotate(0);}
+	to{transform: translatex(0) rotate(0);}
+}
+.page>h3{animation: h3 2s linear;}
+@keyframes h4{
+	from{transform: translatex(-600px) rotate(0);}
+	to{transform: translatex(0) rotate(0);}
+}
+.page>h4{animation: h4 2s linear;}
+@keyframes h5{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+.page>h5{animation: h5 2s linear;}
+.page2{
+	
+	z-index: 8;
+}
+.page2>.huanhu{
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+.page2>.byl{
+	 width: 100%;
+     height:auto;
+	top: 0;
+	left: 0;
+}
+.page2>.feiji{
+	top: 41%;
+	right: 3%;
+}
+.page2>.dance{
+width:30%;
+height: 10%;
+	top: 39%;
+	right: 25%;
+}
+#box2{
+	width: 360px;
+	height: 192px;
+	position: absolute;
+    margin: auto;
+	top: 30%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+   }
+.page2>.zjs{
+	width: 30%;
+     height:10%;
+	top: 39%;
+	left: 0;
+}
+.page2>.byl{
+	animation: lg 2s both linear;
+}
+@keyframes ol{
+	from{transform: translateX(-300px) rotateY(0) rotate(0);}
+	to{transform: translateX(0) rotateY(360deg) rotate(360deg);}
+}
+.page2>.zjs{
+	animation: lg 2s both linear;
+}
+@keyframes hh{
+	from{transform: translateX(600%);}
+	to{transform: translateX(0);}
+}
+.page2>.huanhu{
+	animation: hh 5s  linear;
+}
+@keyframes fj{
+	from{transform: translateX(600%);}
+	to{transform: translateX(0);}
+}
+.page2>.feiji{
+	animation: fj 4s  linear;
+}
+@keyframes dc{
+	from{transform: translateX(-600%);}
+	to{transform: translateX(0);}
+}
+.page2>.dance{
+	animation: dc 4s  linear;
+}
+@keyframes xy{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+.page2>#box2{
+	animation: xy 4s  linear;
+}
+.page3{
+	
+	z-index: 7;
+}
+.page3>#x9{
+	position: relative;
+	top: 0;
+	height: 28%;
+	width: 100%;
+}
+.page3>#x10{
+	position: relative;
+	top:0;
+	height: 29%;
+	width: 100%;
+}
+.page3>#x9>.by12{
+left: 0;
+top: 0;	
+width: 48%;
+height: 94%;
+position: absolute;
+}
+.page3>#x9>.zhs{
+right:0;
+top: 0;	
+width: 48%;
+height: 94%;
+}
+.page3>#x10>.cao{
+left: 0;
+top: 0;	
+width: 48%;
+height: 94%;
+position: absolute;
+}
+.page3>#x10>.san2{
+right:0;
+top: 0;	
+width: 48%;
+height: 94%;
+}
+#x11{
+	width: 100%;
+	height: 28%;
+	top: 57%;
+	left: 0;
+	background: red;
+	font-size:20px;	
+	font-family: '隶书';
+	color: white;
+}
+.page3>.huan{
+	
+	left: 0;
+	top:83%;
+	height: 25%;
+	width: 100%;
+}
+.page3>.gb{
+	width:15%;
+height: 15%;
+	top: 75%;
+	right: 10%;
+}
+@keyframes hh2{
+	from{transform: translateX(600%);}
+	to{transform: translateX(0);}
+}
+.page3>.huan{
+	animation: hh2 5s  linear;
+	}
+@keyframes vy{
+	from{transform: translateX(600%);}
+	to{transform: translateX(0);}
+}
+.by12{
+	animation: vy 4s  linear;
+}
+@keyframes zs{
+	from{transform: translateX(-600%);}
+	to{transform: translateX(0);}
+}
+.zhs{
+	animation: zs 4s  linear;
+}
+@keyframes co{
+	from{transform: translateX(600%);}
+	to{transform: translateX(0);}
+}
+.cao{
+	animation: co 4s  linear;
+}
+@keyframes sn{
+	from{transform: translateX(-600%);}
+	to{transform: translateX(0);}
+}
+.san2{
+	animation: sn 4s  linear;
+}
+.page4{
+    z-index: 6;
+}
+#x8{
+	width: 100%;
+	height:8%;
+	background: red;
+	font-size:12px;	
+	font-family: '隶书';
+	color: white;
+}
+.page4>.chaochang{
+	width: 98%;
+	height: 25%;
+	top: 8%;
+}
+.page4>.nannv{
+	width: 45%;
+	height: 25%;
+	right: 52%;
+	top: 34%;
+}
+.page4>.cp{
+	width: 45%;
+	height: 25%;
+	left: 52%;
+	top: 34%;
+}
+.page4>.hu{
+	width:100%;
+	height:25%;
+	top: 65%;
+}
+@keyframes hu{
+	from{transform: translate(300px) rotate(0);}
+	to{transform: translate(0) rotate(0);}
+}
+.hu{
+		animation: hu 1s both linear;
+}
+@keyframes chaochang{
+	from{transform: translate(-300px) rotate(0);}
+	to{transform: translate(0) rotate(0);}
+}
+.chaochang{
+		animation: chaochang 2s both linear;
+}
+
+@keyframes nannv{
+	from{transform: translate(-300px) rotate(0);}
+	to{transform: translate(0) rotate(0);}
+}
+.nannv{
+		animation: nannv 2s both linear;
+}
+
+@keyframes cp{
+	from{transform: translate(300px) rotate(0);}
+	to{transform: translate(0) rotate(0);}
+}
+.cp{
+		animation: cp 2s both linear;
+}
+@keyframes p{
+	from{transform: scale(0);}
+	to{transform: scale(1);}
+}
+#x8>p{
+	animation: p 2s both linear;
+}
+.page5{
+     z-index: 6;
+}
+.page5>#tou5{
+	position: relative;
+	top: 0;
+	height: 28%;
+	width: 100%;
+}
+.page5>#shen5{
+	position: relative;
+	top:0;
+	height: 29%;
+	width: 100%;
+}
+.page5>#tou5>.nn{
+left: 0;
+top: 0;	
+width: 48%;
+height: 94%;
+position: absolute;
+}
+.page5>#tou5>.s1{
+right:0;
+top: 0;	
+width: 48%;
+height: 94%;
+}
+.page5>#shen5>.cc{
+	width:35%;
+	height: 97%;
+	left: 0;
+	top:0;
+	/*position: absolute;*/
+	/*top: 24%;*/
+}
+.page5>#shen5>.qcsy{
+	width: 32%;
+	height: 88%;
+	left: 128px;
+	top: 8%;	
+}
+.page5>#shen5>.s2{
+	width: 32%;
+	height:97%;
+	right: 0;
+	top: 0;
+	/*top: 22.5%;
+	left: 230px;*/
+}
+.page5>.cp{
+	width: 100%;
+	height: 28%;
+	top: 57%;
+	left: 0;
+}
+.page5>.hh1{
+	left: 0;
+	top:83%;
+	height: 25%;
+	width: 100%;
+}
+@keyframes nn{
+	from{transform: translateY(800px) rotate(0) ;}
+	to{transform: translateY(0) rotate(0) ;}
+}
+.nn{
+	animation: nn 1s ;
+}
+@keyframes s1{
+	from{transform: translateY(800px) rotate(0) ;}
+	to{transform: translateY(0) rotate(0) ;}
+}
+.s1{
+	animation: s1 1s ;
+}
+@keyframes cc{
+	from{transform: translateX(800px) rotate(0) ;}
+	to{transform: translateX(0) rotate(0) ;}
+}
+.cc{
+	animation: cc 2s ;
+}
+@keyframes s2{
+	from{transform: translateX(800px) rotate(0) ;}
+	to{transform: translateX(0) rotate(0) ;}
+}
+.s2{
+	animation: s2 2s ;
+}
+@keyframes qcsy{
+	from{opacity: 0;}
+	/*50%{opacity: 0.3;}*/
+	to{opacity: 1;}
+}
+.qcsy{
+	animation: qcsy 2s ;
+}
+@keyframes cp{
+	from{transform: translateX(800px) rotate(0) ;}
+	to{transform: translateX(0) rotate(0) ;}
+}
+.cp{
+	animation: cp 3s ;
+}
+@keyframes hh1{
+	from{transform: translateX(800px) rotate(0) ;}
+	to{transform: translateX(0) rotate(0) ;}
+}
+.hh1{
+	animation: hh1 2s ;
+}
+.page6{
+	z-index: 6;
+}
+.page6>p{
+	color: white;
+	font-family: "楷体";
+	background-color:red;
+	width:48%;
+	font-size: 250%;
+	height: 15%;
+	text-align: center;
+}
+.page6>.FJ{
+width: 50%;
+height: 15%;
+top:0;
+right: 0;
+}
+.page6>.BY{
+	width: 100%;
+	height:32%;
+	top:16%;
+	left:0;
+	display: none;
+}
+.page6>h6{
+	top:53.5%;
+	color:darkgray;
+    display: none;
+}
+.page6>.HH{
+	width: 100%;
+	height: 22%;
+	position: absolute;
+    margin: auto;
+	top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.page6>.DC{
+	width:30%;
+height: 10%;
+	top: 58%;
+	right: 2%;
+}
+.page6>.FJ2{
+     	width:20%;
+height: 5%;
+	top:49%;
+	left: 5%;	
+}
+@keyframes toTop{
+	from{transform: translateY(0);}
+	to{transform: translateY(-100%);}
+}
+.toTop{
+	animation: toTop 1s both linear;
+}
+@keyframes nextTop{
+	from{transform: translateY(100%);}
+	to{transform: translateY(0);}
+}
+.nextTop{
+	animation: nextTop 1s both linear;
+}
+@keyframes toBottom{
+	from{transform: translateY(0);}
+	to{transform: translateY(100%);}
+}
+.toBottom{
+	animation: toBottom 1s both linear;
+}
+@keyframes prevBottom{
+	from{transform: translateY(-100%);}
+	to{transform: translateY(0);}
+}
+.prevBottom{
+	animation: prevBottom 1s both linear;
+}
+@keyframes p{
+	from{transform: translateX(-300px) rotateY(0) rotate(0);}
+	to{transform: translateX(0) rotateY(360deg) rotate(360deg);}
+}
+p{
+	animation: p 2s linear;
+}
+@keyframes h6{
+	from{opacity: 0;}
+
+	to{opacity: 1;}
+}
+h6{
+animation: h6 5s linear;
+}
+@keyframes FJ2{
+	from{transform: translateX(-100PX);}
+	25%{transform: translateX(50px);}
+	to{transform: translateX(0px);}
+}
+.FJ2{
+	animation: FJ2 2s linear;
+}
+@keyframes DC{
+	from{transform: translateX(-600px) ;}
+	to{transform: translateX(0) ;}
+}
+.DC{
+	animation: DC 2s linear;
+}
+@keyframes BY{
+from{transform: translateX(600px) ;}
+	to{transform: translateX(0) ;}
+}
+.BY{
+	animation: BY 1s linear;
+}
+
+@keyframes FJ{
+from{transform: translateX(300px) rotateY(0) rotate(0);}
+	to{transform: translateX(0) rotateY(360deg) rotate(360deg);}
+}
+.FJ{
+	animation: FJ 2s linear;
+}
+
+@keyframes HH{
+from{transform: translateY(300px) rotateY(0) rotate(360deg);}
+	to{transform:translateY(0)  rotateY(360deg) rotate(360deg);}
+}
+.HH{
+	animation: HH 2s linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+	display: none;
+}
+@keyframes toTop{
+	from{transform: translateY(0);}
+	to{transform: translateY(-100%);}
+}
+.toTop{
+	animation: toTop 1s both linear;
+}
+@keyframes nextTop{
+	from{transform: translateY(100%);}
+	to{transform: translateY(0);}
+}
+.nextTop{
+	animation: nextTop 1s both linear;
+}
+@keyframes toBottom{
+	from{transform: translateY(0);}
+	to{transform: translateY(100%);}
+}
+
+.toBottom{
+	animation: toBottom 1s both linear;
+}
+@keyframes prevBottom{
+	from{transform: translateY(-100%);}
+	to{transform: translateY(0);}
+}
+
+.prevBottom{
+	animation: prevBottom 1s both linear;
+}
+
+@keyframes lg{
+	from{transform: translateX(-300px) rotateY(0) rotate(0);}
+	to{transform: translateX(0) rotateY(360deg) rotate(360deg);}
+}
+
+
+
+
+
+
+
+
